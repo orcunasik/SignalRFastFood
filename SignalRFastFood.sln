@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRFastFood.Api", "SignalRFastFood.Api\SignalRFastFood.Api.csproj", "{B6ECD9FD-E97E-4AA0-B24C-FE0FCBE0853C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRFastFood.WebUI", "SignalRFastFood.WebUI\SignalRFastFood.WebUI.csproj", "{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B6ECD9FD-E97E-4AA0-B24C-FE0FCBE0853C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6ECD9FD-E97E-4AA0-B24C-FE0FCBE0853C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6ECD9FD-E97E-4AA0-B24C-FE0FCBE0853C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
