@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SignalRFastFood.Entities.Repositories.Abstracts;
+using SignalRFastFood.Core.Repositories.Abstracts;
 using SignalRFastFood.Repositories.Repositories.EntityFrameworkCore.Context;
 using System.Linq.Expressions;
 

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using SignalRFastFood.Entities.Models;
+using SignalRFastFood.Core.Models;
 
 namespace SignalRFastFood.Repositories.Configurations;
 

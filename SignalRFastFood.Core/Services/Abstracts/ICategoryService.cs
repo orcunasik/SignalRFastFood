@@ -1,6 +1,6 @@
-﻿using SignalRFastFood.Entities.Models;
+﻿using SignalRFastFood.Core.Models;
 
-namespace SignalRFastFood.Entities.Services.Abstracts;
+namespace SignalRFastFood.Core.Services.Abstracts;
 
 public interface ICategoryService : IService<Category>
 {

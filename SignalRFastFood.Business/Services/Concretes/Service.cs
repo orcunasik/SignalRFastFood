@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SignalRFastFood.Entities.Repositories.Abstracts;
-using SignalRFastFood.Entities.Services.Abstracts;
-using SignalRFastFood.Entities.UnitOfWorks;
+using SignalRFastFood.Core.Repositories.Abstracts;
+using SignalRFastFood.Core.Services.Abstracts;
+using SignalRFastFood.Core.UnitOfWorks;
 using System.Linq.Expressions;
 
 namespace SignalRFastFood.Business.Services.Concretes;

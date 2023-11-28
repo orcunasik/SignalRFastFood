@@ -1,6 +1,6 @@
-﻿using SignalRFastFood.Entities.Models;
+﻿using SignalRFastFood.Core.Models;
 
-namespace SignalRFastFood.Entities.Repositories.Abstracts;
+namespace SignalRFastFood.Core.Repositories.Abstracts;
 
 public interface IProductRepository : IRepository<Product>
 {

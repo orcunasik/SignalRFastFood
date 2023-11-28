@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace SignalRFastFood.Entities.Repositories.Abstracts;
+namespace SignalRFastFood.Core.Repositories.Abstracts;
 
 public interface IRepository<T> where T : class
 {

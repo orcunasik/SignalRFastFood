@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace SignalRFastFood.Entities.Services.Abstracts;
+namespace SignalRFastFood.Core.Services.Abstracts;
 
 public interface IService<T> where T : class
 {

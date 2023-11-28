@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SignalRFastFood.Entities.Models;
+using SignalRFastFood.Core.Models;
 using System.Reflection;
 
 namespace SignalRFastFood.Repositories.Repositories.EntityFrameworkCore.Context;

@@ -1,4 +1,4 @@
-﻿namespace SignalRFastFood.Entities.Models;
+﻿namespace SignalRFastFood.Core.Models;
 
 public class Product
 {

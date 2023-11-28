@@ -1,4 +1,4 @@
-﻿namespace SignalRFastFood.Entities.UnitOfWorks;
+﻿namespace SignalRFastFood.Core.UnitOfWorks;
 
 public interface IUnitOfWork
 {

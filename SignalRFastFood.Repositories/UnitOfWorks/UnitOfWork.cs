@@ -1,4 +1,4 @@
-﻿using SignalRFastFood.Entities.UnitOfWorks;
+﻿using SignalRFastFood.Core.UnitOfWorks;
 using SignalRFastFood.Repositories.Repositories.EntityFrameworkCore.Context;
 
 namespace SignalRFastFood.Repositories.UnitOfWorks;

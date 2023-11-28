@@ -1,7 +1,7 @@
-﻿using SignalRFastFood.Entities.Models;
-using SignalRFastFood.Entities.Repositories.Abstracts;
-using SignalRFastFood.Entities.Services.Abstracts;
-using SignalRFastFood.Entities.UnitOfWorks;
+﻿using SignalRFastFood.Core.Models;
+using SignalRFastFood.Core.Repositories.Abstracts;
+using SignalRFastFood.Core.Services.Abstracts;
+using SignalRFastFood.Core.UnitOfWorks;
 
 namespace SignalRFastFood.Business.Services.Concretes;
 
