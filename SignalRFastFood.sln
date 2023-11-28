@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRFastFood.Api", "Sign
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRFastFood.WebUI", "SignalRFastFood.WebUI\SignalRFastFood.WebUI.csproj", "{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRFastFood.Core", "SignalRFastFood.Entities\SignalRFastFood.Core.csproj", "{CF3D23F4-77DA-4E10-A6BB-EF7BB9FFF19F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRFastFood.Core", "SignalRFastFood.Core\SignalRFastFood.Core.csproj", "{CF3D23F4-77DA-4E10-A6BB-EF7BB9FFF19F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRFastFood.Repositories", "SignalRFastFood.Repositories\SignalRFastFood.Repositories.csproj", "{468CA4BD-5918-4DC3-BF50-5FC831C8EFB2}"
 EndProject
