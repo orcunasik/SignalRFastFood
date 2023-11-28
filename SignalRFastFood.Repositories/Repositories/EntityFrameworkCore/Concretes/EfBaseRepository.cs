@@ -7,7 +7,7 @@ namespace SignalRFastFood.Repositories.Repositories.EntityFrameworkCore.Concrete
 
 public class EfBaseRepository<TEntity> : IRepository<TEntity> where TEntity : class
 {
-    private readonly FastFoodDbContext _context;
+    protected readonly FastFoodDbContext _context;
     private readonly DbSet<TEntity> _dbSet;
 
     public EfBaseRepository(FastFoodDbContext context)
