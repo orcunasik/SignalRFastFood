@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SignalRFastFood.Entities\SignalRFastFood.Core.csproj" />
+    <ProjectReference Include="..\SignalRFastFood.Core\SignalRFastFood.Core.csproj" />
   </ItemGroup>
 
 </Project>
