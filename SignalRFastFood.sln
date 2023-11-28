@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRFastFood.Api", "SignalRFastFood.Api\SignalRFastFood.Api.csproj", "{B6ECD9FD-E97E-4AA0-B24C-FE0FCBE0853C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRFastFood.Api", "SignalRFastFood.Api\SignalRFastFood.Api.csproj", "{B6ECD9FD-E97E-4AA0-B24C-FE0FCBE0853C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRFastFood.WebUI", "SignalRFastFood.WebUI\SignalRFastFood.WebUI.csproj", "{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRFastFood.WebUI", "SignalRFastFood.WebUI\SignalRFastFood.WebUI.csproj", "{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRFastFood.Entities", "SignalRFastFood.Entities\SignalRFastFood.Entities.csproj", "{CF3D23F4-77DA-4E10-A6BB-EF7BB9FFF19F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{217C278A-A3C0-4EFD-A895-0A2B2D63B9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3D23F4-77DA-4E10-A6BB-EF7BB9FFF19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3D23F4-77DA-4E10-A6BB-EF7BB9FFF19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3D23F4-77DA-4E10-A6BB-EF7BB9FFF19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3D23F4-77DA-4E10-A6BB-EF7BB9FFF19F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
