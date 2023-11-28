@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SignalRFastFood.Repositories.Migrations
 {
     /// <inheritdoc />
-    public partial class mig_first : Migration
+    public partial class Initiliaze : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

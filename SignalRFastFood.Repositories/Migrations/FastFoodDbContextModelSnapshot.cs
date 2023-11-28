@@ -22,7 +22,7 @@ namespace SignalRFastFood.Repositories.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("SignalRFastFood.Entities.Models.About", b =>
+            modelBuilder.Entity("SignalRFastFood.Core.Models.About", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -50,7 +50,7 @@ namespace SignalRFastFood.Repositories.Migrations
                     b.ToTable("Abouts", (string)null);
                 });
 
-            modelBuilder.Entity("SignalRFastFood.Entities.Models.Booking", b =>
+            modelBuilder.Entity("SignalRFastFood.Core.Models.Booking", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -84,7 +84,7 @@ namespace SignalRFastFood.Repositories.Migrations
                     b.ToTable("Bookings", (string)null);
                 });
 
-            modelBuilder.Entity("SignalRFastFood.Entities.Models.Category", b =>
+            modelBuilder.Entity("SignalRFastFood.Core.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -105,7 +105,7 @@ namespace SignalRFastFood.Repositories.Migrations
                     b.ToTable("Categories", (string)null);
                 });
 
-            modelBuilder.Entity("SignalRFastFood.Entities.Models.Contact", b =>
+            modelBuilder.Entity("SignalRFastFood.Core.Models.Contact", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -138,7 +138,7 @@ namespace SignalRFastFood.Repositories.Migrations
                     b.ToTable("Contacts", (string)null);
                 });
 
-            modelBuilder.Entity("SignalRFastFood.Entities.Models.Discount", b =>
+            modelBuilder.Entity("SignalRFastFood.Core.Models.Discount", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -171,7 +171,7 @@ namespace SignalRFastFood.Repositories.Migrations
                     b.ToTable("Discounts", (string)null);
                 });
 
-            modelBuilder.Entity("SignalRFastFood.Entities.Models.Feature", b =>
+            modelBuilder.Entity("SignalRFastFood.Core.Models.Feature", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -214,7 +214,7 @@ namespace SignalRFastFood.Repositories.Migrations
                     b.ToTable("Features", (string)null);
                 });
 
-            modelBuilder.Entity("SignalRFastFood.Entities.Models.Product", b =>
+            modelBuilder.Entity("SignalRFastFood.Core.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -248,7 +248,7 @@ namespace SignalRFastFood.Repositories.Migrations
                     b.ToTable("Products", (string)null);
                 });
 
-            modelBuilder.Entity("SignalRFastFood.Entities.Models.SocialMedia", b =>
+            modelBuilder.Entity("SignalRFastFood.Core.Models.SocialMedia", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -276,7 +276,7 @@ namespace SignalRFastFood.Repositories.Migrations
                     b.ToTable("SocialMedias", (string)null);
                 });
 
-            modelBuilder.Entity("SignalRFastFood.Entities.Models.Testimonial", b =>
+            modelBuilder.Entity("SignalRFastFood.Core.Models.Testimonial", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
