@@ -22,8 +22,8 @@ public class CategoriesController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        IList<Category> categorys = await _categoryService.GetAllAsync();
-        IList<ResultCategoryDto> categoryDtos = _mapper.Map<IList<ResultCategoryDto>>(categorys);
+        IList<Category> categories = await _categoryService.GetAllAsync();
+        IList<ResultCategoryDto> categoryDtos = _mapper.Map<IList<ResultCategoryDto>>(categories);
         return Ok(categoryDtos);
     }
 
