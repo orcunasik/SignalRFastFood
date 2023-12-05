@@ -7,4 +7,5 @@ public class CreateProductDto
     public string ImageUrl { get; set; }
     public decimal Price { get; set; }
     public bool IsStatus { get; set; }
+    public int CategoryId { get; set; }
 }
