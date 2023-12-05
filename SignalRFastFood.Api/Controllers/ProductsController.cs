@@ -22,8 +22,8 @@ public class ProductsController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        IList<Product> products = await _productService.GetAllAsync();
-        IList<ResultProductDto> productDtos = _mapper.Map<IList<ResultProductDto>>(products);
+        IList<Product> products = await _productService.GetProductsWithCategoryAsync();
+        IList<ResultProductWithCategoryDto> productDtos = _mapper.Map<IList<ResultProductWithCategoryDto>>(products);
         return Ok(productDtos);
     }
 
