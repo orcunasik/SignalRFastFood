@@ -4,4 +4,5 @@ namespace SignalRFastFood.Core.Repositories.Abstracts;
 
 public interface IProductRepository : IRepository<Product>
 {
+    Task<IList<Product>> GetProductsWithCategoryAsync();
 }
