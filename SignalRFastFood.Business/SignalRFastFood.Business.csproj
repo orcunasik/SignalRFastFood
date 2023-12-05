@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SignalRFastFood.Dto\SignalRFastFood.Dto.csproj" />
     <ProjectReference Include="..\SignalRFastFood.Repositories\SignalRFastFood.Repositories.csproj" />
   </ItemGroup>
 
