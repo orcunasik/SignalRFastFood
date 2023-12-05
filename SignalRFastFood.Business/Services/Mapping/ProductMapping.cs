@@ -11,6 +11,7 @@ public class ProductMapping : Profile
         CreateMap<Product, CreateProductDto>().ReverseMap();
         CreateMap<Product, UpdateProductDto>().ReverseMap();
         CreateMap<Product, ResultProductDto>().ReverseMap();
+        CreateMap<Product, ResultProductWithCategoryDto>().ReverseMap();
         CreateMap<Product, GetProductDto>().ReverseMap();
     }
 }
