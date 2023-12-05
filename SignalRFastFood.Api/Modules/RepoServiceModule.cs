@@ -1,5 +1,5 @@
-﻿using SignalRFastFood.Business.Services.Concretes;
-using SignalRFastFood.Business.Services.Mapping;
+﻿using SignalRFastFood.Business.Mapping;
+using SignalRFastFood.Business.Services.Concretes;
 using SignalRFastFood.Core.Repositories.Abstracts;
 using SignalRFastFood.Core.Services.Abstracts;
 using SignalRFastFood.Core.UnitOfWorks;
