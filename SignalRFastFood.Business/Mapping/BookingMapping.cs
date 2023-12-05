@@ -2,7 +2,7 @@
 using SignalRFastFood.Core.Models;
 using SignalRFastFood.Dto.BookingDtos;
 
-namespace SignalRFastFood.Business.Services.Mapping;
+namespace SignalRFastFood.Business.Mapping;
 
 public class BookingMapping : Profile
 {

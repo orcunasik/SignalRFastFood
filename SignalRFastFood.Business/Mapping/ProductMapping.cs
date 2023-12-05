@@ -2,7 +2,7 @@
 using SignalRFastFood.Core.Models;
 using SignalRFastFood.Dto.ProductDtos;
 
-namespace SignalRFastFood.Business.Services.Mapping;
+namespace SignalRFastFood.Business.Mapping;
 
 public class ProductMapping : Profile
 {

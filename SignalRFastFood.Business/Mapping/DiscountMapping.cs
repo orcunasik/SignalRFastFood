@@ -3,7 +3,7 @@ using SignalRFastFood.Core.Models;
 using SignalRFastFood.Dto.AboutDtos;
 using SignalRFastFood.Dto.DiscountDtos;
 
-namespace SignalRFastFood.Business.Services.Mapping;
+namespace SignalRFastFood.Business.Mapping;
 
 public class DiscountMapping : Profile
 {
